@@ -1,14 +1,15 @@
 // Colors
+@import "colors";
 
-@text-color: #aaa;
-@text-color-subtle: #555;
+@text-color: @cloud;
+@text-color-subtle: @grey;
 @text-color-highlight: #fff;
 @text-color-selected: @text-color-highlight;
 
-@text-color-info: #5293d8;
-@text-color-success: #26c26a;
-@text-color-warning: #ff982d;
-@text-color-error: #c00;
+@text-color-info: @purple;
+@text-color-success: @turquoise;
+@text-color-warning: @sap;
+@text-color-error: lighten(@wine, 15);
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -16,17 +17,17 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: #0098ff;
-@background-color-success: #17ca65;
+@background-color-info: @purple;
+@background-color-success: @turquoise;
 @background-color-warning: #ffaa2c;
 @background-color-error: #c00;
 @background-color-highlight: rgba(255, 255, 255, 0.07);
 @background-color-selected: #4182C4;
 
-@app-background-color: #333;
+@app-background-color: @darkrock;
 
 @base-background-color: lighten(@tool-panel-background-color, 5%);
-@base-border-color: rgba(0, 0, 0, 0.5);
+@base-border-color: @rock;
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: rgba(0, 0, 0, 0.5);
@@ -34,7 +35,7 @@
 @input-background-color: #212224;
 @input-border-color: @base-border-color;
 
-@tool-panel-background-color: #1d1f21;
+@tool-panel-background-color: @rock;
 @tool-panel-border-color: @base-border-color;
 
 @inset-panel-background-color: #161719;
@@ -51,11 +52,11 @@
 @button-background-color-selected: #5c6064;
 @button-border-color: @base-border-color;
 
-@tab-bar-background-color: #222;
+@tab-bar-background-color: @rock;
 @tab-bar-border-color: darken(@tab-background-color-active, 10%);
 @tab-background-color: #333;
-@tab-background-color-active: #222;
-@tab-border-color: #484848;
+@tab-background-color-active: @darkrock;
+@tab-border-color: @darkgrey;
 
 @tree-view-background-color: @tool-panel-background-color;
 @tree-view-border-color: @tool-panel-border-color;
