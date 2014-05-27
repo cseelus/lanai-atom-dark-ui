@@ -45,15 +45,14 @@
   li.two-lines {
     .secondary-line { color: @text-color-subtle; }
     &.selected .secondary-line {
-      color: @text-color-subtle;
-      text-shadow: none;
+      color: @text-color;
     }
   }
 
   // We want to highlight the background of the list items because we dont
   // know their size.
   li.selected {
-    color: @darkrock;
+    color: @text-color-highlight;
     text-shadow: none;
     background-color: @background-color-selected;
     &:before{ display: none; }
