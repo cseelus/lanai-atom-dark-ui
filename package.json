@@ -1,7 +1,7 @@
 {
   "name": "lanai-dark-ui",
   "theme": "ui",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Lanai dark theme for Atom editor interface components",
   "license": "MIT",
   "repository": "https://github.com/cseelus/lanai-atom-dark-ui",
